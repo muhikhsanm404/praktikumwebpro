@@ -40,7 +40,7 @@
 </html>
 <?php
 
-"Melakukan Koneksi Database yang belum tersedia ";
+echo "Melakukan Koneksi Database yang belum tersedia ";
 $serverName = "localhost";
 $username = "root";
 $password = "siber";
