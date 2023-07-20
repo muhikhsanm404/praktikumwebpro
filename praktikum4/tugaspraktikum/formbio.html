@@ -1,0 +1,107 @@
+<!-- //Nama : Muhammad Ikhsan Mandirri
+//NIm : 21104410070
+//Kelas : TI P2K 2021
+//Mata Kuliah : Praktikum Pemrograman Web -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Form Biodata Unisba</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+  <body>
+    <div class="flex items-center bg-blue-800">
+      <img src="./img/unisba.png" class="h-20 mr-3" style="margin-left: 50px;">
+      <strong class="font-mono text-2xl font-bold ml-5 text-white">FORM DATA MAHASISWA | PRAKTIKUM 1</strong>
+    </div>
+  
+
+    <div class='ml-10 mt-10 text-2xl text-center'>
+    <h1> <b> FORM DATA MAHASISWA UNISBA</b></h1> </div>
+
+    <div class="card text-bg-dark m-3">
+      <div class="card-body">
+        <div class="container ">
+          <form action="insetbio.php" method="post" name="input">
+            <div class="mb-1">
+              <label for="nimMahasiswa" class="form-label"
+                >NIM </label
+              >
+              <input
+                type="number"
+                name="nimMahasiswa"
+                class="form-control"
+                id="nimMahasiswa"
+                aria-describedby="emailHelp"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="namaMahasiswa" class="form-label"
+                >Nama</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="namaMahasiswa"
+                name="namaMahasiswa"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="kelaminMhs" class="form-label">Jenis Kelamin</label>
+              <select
+                name="kelaminMhs"
+                class="form-control"
+                id="kelaminMhs"
+                required
+              >
+              <option value="Laki-Laki">Laki-Laki</option>
+              <option value="Perempuan">Perempuan</option>
+            </select>
+            </div>
+            <div class="mb-3">
+              <label for="umurMhs" class="form-label"
+                >Umur</label
+              >
+              <input
+                type="number"
+                class="form-control"
+                id="umurMhs"
+                name="umurMhs"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary" name="input">Submit</button>
+          </form>
+        </div>
+      </div>
+  </div>
+  
+  </body>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+  crossorigin="anonymous">
+  </script>
+        <footer class="rounded bg-blue-800 absolute inset-x-0  bottom-0 ">
+  
+          </div>
+          <hr class="my-6 bold border-white-400 sm:mx-auto dark:border-white-700 lg:my-8" />
+          <span class="block text-2xl text-white sm:text-center"> © 2023
+             <a href="" class="hover:underline"><b>Muh Ikhsan M - 21104410070 - TI P2K 2021
+      
+</html>
